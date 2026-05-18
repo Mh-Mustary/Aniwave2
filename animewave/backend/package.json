@@ -24,4 +24,9 @@
     "nodemon": "^3.0.2",
     "prisma": "^5.7.0"
   }
+  "scripts": {
+  "postinstall": "prisma generate",
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+}
 }
