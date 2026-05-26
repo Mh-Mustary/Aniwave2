@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "postinstall": "prisma generate",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}
